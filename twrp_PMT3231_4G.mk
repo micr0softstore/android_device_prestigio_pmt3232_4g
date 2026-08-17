@@ -8,17 +8,17 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from HP10A12L device
-$(call inherit-product, device/incar/HP10A12L/device.mk)
+# Inherit from PMT3231_4G device
+$(call inherit-product, device/prestigio/PMT3231_4G/device.mk)
 
-PRODUCT_DEVICE := HP10A12L
-PRODUCT_NAME := omni_HP10A12L
+PRODUCT_DEVICE := PMT3231_4G
+PRODUCT_NAME := twrp_PMT3231_4G
 PRODUCT_BRAND := Prestigio
-PRODUCT_MODEL := PMT3231_4G_D
-PRODUCT_MANUFACTURER := incar
+PRODUCT_MODEL := PMT3231_4G
+PRODUCT_MANUFACTURER := prestigio
 
 PRODUCT_GMS_CLIENTID_BASE := android-incar
 
