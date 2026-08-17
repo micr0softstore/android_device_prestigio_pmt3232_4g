@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/incar/HP10A12L
+LOCAL_PATH := device/prestigio/PMT3231_4G
