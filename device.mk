@@ -6,3 +6,8 @@
 #
 
 LOCAL_PATH := device/prestigio/PMT3231_4G
+
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock \
+    android.hardware.fastboot@1.0-impl-mock.recovery \
+    fastbootd
