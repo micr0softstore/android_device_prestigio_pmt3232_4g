@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_HP10A12L.mk
+    $(LOCAL_DIR)/twrp_PMT3231_4G.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_HP10A12L-user \
-    omni_HP10A12L-userdebug \
-    omni_HP10A12L-eng
+    twrp_PMT3231_4G-user \
+    twrp_PMT3231_4G-userdebug \
+    twrp_PMT3231_4G-eng
